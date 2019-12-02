@@ -8,11 +8,10 @@
 
 int SizeofTree(Btree *tree)
 {
-	int size = 0;
-
 	if (tree == NULL)
 	{
 		return (0);
 	}
-	size = SizeofTree(tree->left + 1 + SizeofTree(tree->right);
+	printf("im currently in the node %d\n", tree->data);
+	return(SizeofTree(tree->left) + 1 + SizeofTree(tree->right));
 }

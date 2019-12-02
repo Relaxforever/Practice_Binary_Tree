@@ -1,5 +1,5 @@
 CC = gcc
-SRC = Inorder.c Binary.h Create_Tree.c Preorder.c Postorder.c calculatesize.c
+SRC = Inorder.c Binary.h Create_Tree.c Preorder.c Postorder.c calculatesize.c Treeheight.c levelorder.c
 OBJ = ${SRC:%.c=%.o}
 NAME = Trees_exercises
 RM = rm -f
